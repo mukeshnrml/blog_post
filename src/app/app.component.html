@@ -1,0 +1,31 @@
+
+
+<div class="form-area a">
+<h1>Blog-Post</h1><br><br>
+<input type="text" placeholder="Blog title" [(ngModel)]="blogTitle"><br><br>
+<textarea name="" cols="30" rows="10" placeholder="Blog Detail" [(ngModel)]="blogDetail"></textarea><br/><br>
+<input type="text" placeholder="Blog Image URL"  [(ngModel)]="imageUrl"><br/><br>
+<input type="text" name="" placeholder="Blog URL"  [(ngModel)]="blogURL"><br/><br>
+
+</div>
+<h1 class="b">Output</h1>
+<div class="preview-area a">
+    <img [src]="imageUrl" alt="">
+    <h3>Blog-Title : {{blogTitle}} </h3>
+    <h3>Blog-Detail : {{blogDetail}}</h3><br>
+    <a [href]="blogURL">Show Detail</a>
+</div> 
+
+ 
+<!-- <h1 class="a">ADIT Form</h1>
+<div class="main-conaner a">
+    <div class="nav-container"> 
+        <button routerLink="/registraion" routerLinkActive="active">Registraion Form</button>
+
+    </div>
+</div> 
+
+<app-registraion></app-registraion> -->
+
+
+
